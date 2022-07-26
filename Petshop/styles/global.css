@@ -1,0 +1,76 @@
+/*
+FONT NAMES AND COLORS
+
+font-family: "Anton", cursive;
+font-family: "Open Sans", sans-serif;
+
+Text-color : #333
+Dark blue : #345995;
+Light-blue: #4392F1;
+Red: #D7263D;
+Yellow: #EAC435;
+Orange: #F46036;
+*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: #333
+
+}
+
+.wrap{
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+    font-family: "Anton", cursive;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 110px;
+}
+
+h2{
+    font-size: 30px;
+}
+.space v20{
+    height:20px;
+}
+
+.spacer{
+    height:40px
+}
+
+.spacer v80{
+    height: 80px;
+}
+
+.clear{
+    clear:both;
+}
+
+#promo,
+#subscribe,
+#footeer{
+    text-align: center;
+    color: #fff;
+    min-width: 1000px;
+}
+
+#promo{
+    background-color: #f46036;
+}
+
+#promo > div {
+    padding: 15px;
+}
